@@ -34,14 +34,16 @@ To test out the project yourself, follow the steps below.
 ### Clone the repository
 Click the green code button next to the add file button. Make sure you are under the "HTTPS" tab and click on the clipboard on the right of the link to the repository.
 
-![Screenshot](Pics\GitClone.png)
-
 After you have copied the link, open Command Prompt and traverse to the directory you wish to use the repository in. Type in Git Clone [Link] into the command prompt.
+
+![Screenshot](Pics/GitClone.png)
 
 ### Using the AppleInc database backup file.
 Open File Explorer on your computer and go to where you cloned the repository on your computer and extract the files from the AppleInc zip file. This is where the AppleInc Database backup file is.
 
 Open another File Explorer window and navigate to the Microsoft SQL Server folder. You're going to be navigating through the directory to find the Bckup folder for your database instance. Open the Database instance folder that you wish to use. Then open the MSSQL Folder. Finally open the Backup Folder.
+
+![Screenshot](Pics/BackupFolder.png)
 
 Copy the .bak folder from the cloned repository and paste it into the Backup folder you just navigated to.
 
@@ -51,19 +53,28 @@ Open up Microsoft SQL Server Management Studio and for the server type use Datab
 
 Once logged into your server instance, right click on the Databases folder in the Object Explorer pane. Click on Restore Database.
 
+![Screenshot](Pics/ObjectExplorer.png)
+
 In the Restore Database window under the Source section, click the Device radio button and press the button on the right. This will open the Select Backup Devices window.
 
 In the Select Backup Devices window, click on the add button. This takes you to the Backup folder in your database.
 
 Locate the AppleInc.bak file,select it, and press ok in the Locate Backup File window.
 
+![Screenshot](Pics/LocateBackupFile.png)
+
 Press ok in the Select Backup Devices Window.
 
 Make sure the database properly restores and then click ok in the Restore Database Window.
 
+![Screenshot](Pics/Success.png)
 
 
+## Using the ProjectDemo.Sql
 
+The ProjectDemo.Sql file contains sample scripts for you to try out. Some of which include, product creation, moving products down the production line, viewing certain stores/production houses/warehouses/etc ,  and purchasing a product at a store. 
 
+Simply click File -> Open -> Open File or Ctrl + O to open the file explorer and navigate to where the ProjectDemo.sql script is to open it.
 
+## License
 
