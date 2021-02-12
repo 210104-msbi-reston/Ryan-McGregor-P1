@@ -34,7 +34,7 @@ To test out the project yourself, follow the steps below.
 ### Clone the repository
 Click the green code button next to the add file button. Make sure you are under the "HTTPS" tab and click on the clipboard on the right of the link to the repository.
 
-![alt text](https://github.com/[ryan-mcgregor-87]/[Ryan-McGregor-P1]/Pics/GitClone.png?raw=true)
+![Screenshot](Pics\GitClone.png)
 
 After you have copied the link, open Command Prompt and traverse to the directory you wish to use the repository in. Type in Git Clone [Link] into the command prompt.
 
