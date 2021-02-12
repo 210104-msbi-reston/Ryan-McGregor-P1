@@ -78,3 +78,4 @@ Simply click File -> Open -> Open File or Ctrl + O to open the file explorer and
 
 ## License
 
+The project uses the SSMS 2016 License.
